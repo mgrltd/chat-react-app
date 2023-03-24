@@ -1,0 +1,19 @@
+/* 481px — 768px: iPads, Tablets */
+@media  screen and (max-width:950px) {
+    .body{
+        background-color: rgb(0, 255, 0);
+    }
+}
+
+
+/* 320px — 480px: Mobile devices */
+@media screen and (max-width:480px) {
+    
+    .body{
+        background-color: aqua;
+    }
+}
+.overflow-y-scroll {
+    height: 100px;
+    overflow-y: scroll;
+  }

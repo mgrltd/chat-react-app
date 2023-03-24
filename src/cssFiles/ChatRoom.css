@@ -1,0 +1,159 @@
+/* 769px — 1024px: Small screens, laptops */
+@media screen and (max-width:15000px) {
+
+    .main{
+        background-color: rgb(250, 206, 250);
+    }
+    .header{
+        padding: 1%;
+        font-size: 30px;
+    }
+    .body-left{
+        background-color:Cornsilk;
+        width:30%;
+        padding:2%;
+        float:left;
+        overflow-y:scroll;
+        height:700px
+    }
+    .body-left-users{
+            border-radius:40px ;
+            padding:10px;
+            background-color:Aquamarine
+    }
+    .body-right{
+        background-color :LightCyan;
+        width:62%;
+        float:left;
+        height:700px;
+        padding:2%
+    }
+    .chat-room{
+        border:1px solid green;
+        height:700px
+    }
+    .chat-room-body{
+        overflow-y:scroll;
+        height:500px
+    }
+    .my-chating{
+        background-color:PaleTurquoise;
+        border-radius:40px;
+        padding:10px;
+        float:right
+    }
+    .other-chating{
+        width: 80%;
+        border-radius:40px;
+        padding:10px; 
+        background-color:white
+    }
+    .chat-room-footer{
+        padding:20px;
+    }
+    .chat-room-footer-text{
+        padding:10px;
+        font-size:20px;
+        border-radius:40px;
+        width:80%
+    }
+    .chat-room-footer-sendButton{
+       padding:10px;
+       font-size:20px;
+       border-radius:40px;
+       background-color:LightGreen
+    }
+    
+    
+}
+
+/* 481px — 768px: iPads, Tablets */
+@media  screen and (max-width:950px) {
+}
+
+
+/* 320px — 480px: Mobile devices */
+@media screen and (max-width:480px) {
+
+    .main{
+        background-color: plum;
+        width:100%;
+
+    }
+    .header{
+        padding: 1%;
+        font-size: 20px;
+    }
+    .body-left{
+        background-color:Cornsilk;
+        width:96%;
+        padding:2%;
+        float:left;
+        overflow-y:scroll;
+        height:700px
+    }
+    .body-left-users{
+            border-radius:40px ;
+            padding:10px;
+            background-color:Aquamarine
+    }
+    .body-right{
+        background-color :LightCyan;
+        width:96%;
+        float:left;
+        height:700px;
+        padding:2%
+    }
+    .chat-room{
+        border:1px solid green;
+        height:700px
+    }
+    .chat-room-body{
+        overflow-y: scroll;
+        height:550px
+    }
+    .my-chating{
+        background-color:PaleTurquoise;
+        border-radius:40px;
+        padding:10px;
+
+    }
+    .other-chating{
+        padding:10px;
+        border-radius: 10px 20px 20px;
+        background-color:white
+    }
+    .chat-room-footer{
+        padding:20px;
+    }
+    .chat-room-footer-text{
+        padding:5px;
+        font-size:20px;
+        border-radius:40px;
+        width:70%
+    }
+    .chat-room-footer-sendButton{
+       padding:5px;
+       font-size:20px;
+       border-radius:40px;
+       background-color:LightGreen
+    }
+
+}
+
+.profil{
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    
+}
+.profil-body{
+   padding: 10px;
+    border:1px solid green;
+    border-radius:50%;
+}
+.chat-room-header{
+    padding: 10px;
+    background-color: beige;
+}
